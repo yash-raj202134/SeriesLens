@@ -1,5 +1,5 @@
 import torch #type:ignore
-from transformer import pipeline #type:ignore
+from transformers import pipeline #type:ignore
 from nltk import sent_tokenize #type:ignore
 import numpy as np #type:ignore
 import pandas as pd #type:ignore
@@ -46,7 +46,7 @@ class ThemeClassifier():
         
         # Run Model
         theme_output = self.theme_classifier(
-            script_batches[:2],
+            script_batches,
             self.theme_list,
             multi_label=True
         )
