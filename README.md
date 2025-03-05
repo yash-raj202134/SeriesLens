@@ -52,6 +52,9 @@ python app.py
 
 - Improve character network analysis with advanced NLP techniques.
 
-
+## 📜 License
+This project is licensed under the MIT License.
+## 🔗 Connect
+For any suggestions or contributions, feel free to reach out!
 
 
