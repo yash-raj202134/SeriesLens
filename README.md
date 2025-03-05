@@ -13,6 +13,29 @@ SeriesLens is an AI-powered framework designed to analyze TV series using NLP, L
 - 🤖 Custom LLM Text Classifier – Train a personalized text classification model for deeper series analysis.
 
 - 📡 Data Scraping – Collect and process custom dataset for improved model training.
+
+## 🏗️ Project Workflow
+```
+A[Data Collection & Scraping] --> B[Preprocessing & Cleaning];
+    B --> C[NER & Character Network];
+    C --> D[Theme Classification];
+    D --> E[Text Classification];
+    E --> F[Character Chatbot];
+    F --> G[Insights & Analysis];
+```
+## 🛠️ Tech Stack
+
+- Frameworks: Gradio, Hugging Face Transformers, Scrapy, BeautifulSoup
+
+- Models: Llama-3, Zero-shot Classifiers, Named Entity Recognition (NER)
+
+- Languages: Python
+
+- Visualization: Graph Networks, Bar Charts
+
+## 🏃 Usage
+Clone the repository and install dependencies:
+
 ## Starting point :
 The scope of this project is to built a character Chatbot to chat with your favorite TV series characters, analyze a series with NLP and LLMs, scrape our own dataset, use zero shot classifiers, build our own LLM text classifier, use NER to build a character network and build a character chatbot to chat..
 
