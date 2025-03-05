@@ -35,6 +35,11 @@ A[Data Collection & Scraping] --> B[Preprocessing & Cleaning];
 
 ## 🏃 Usage
 Clone the repository and install dependencies:
+```
+git clone https://github.com/yash-raj202134/SeriesLens.git
+cd SeriesLens
+pip install -r requirements.txt
+```
 
 ## Starting point :
 The scope of this project is to built a character Chatbot to chat with your favorite TV series characters, analyze a series with NLP and LLMs, scrape our own dataset, use zero shot classifiers, build our own LLM text classifier, use NER to build a character network and build a character chatbot to chat..
