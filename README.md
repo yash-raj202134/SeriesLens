@@ -2,6 +2,7 @@
 🔍 AI-Enhanced TV Series Analysis & Character Interaction
 
 SeriesLens is an AI-powered framework designed to analyze TV series using NLP, LLMs, and character interactions. It enables users to chat with their favorite TV series characters, classify themes, extract character networks, and analyze series transcripts.
+The scope of this project is to built a character Chatbot to chat with your favorite TV series characters, analyze a series with NLP and LLMs, scrape our own dataset, use zero shot classifiers, build our own LLM text classifier, use NER to build a character network and build a character chatbot to chat..
 
 ## 🚀 Features
 - 🗣️ Character Chatbot – Chat with TV series characters using LLM-powered conversational AI.
@@ -40,8 +41,17 @@ git clone https://github.com/yash-raj202134/SeriesLens.git
 cd SeriesLens
 pip install -r requirements.txt
 ```
+Run the application:
+```
+python app.py
+```
+## 📌 Future Enhancements
+- Expand support for more TV series.
 
-## Starting point :
-The scope of this project is to built a character Chatbot to chat with your favorite TV series characters, analyze a series with NLP and LLMs, scrape our own dataset, use zero shot classifiers, build our own LLM text classifier, use NER to build a character network and build a character chatbot to chat..
+- Enhance chatbot personality and response generation.
+
+- Improve character network analysis with advanced NLP techniques.
+
+
 
 
